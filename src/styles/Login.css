@@ -1,0 +1,51 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #ccc;
+    padding: 5px;
+    margin-bottom: 15px;
+    color: #45CBB2
+}
+textarea:focus, input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+button {
+    font-size: large;
+    background-color: transparent;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+button:hover {
+    border-color: #45CBB2;
+    color: #45CBB2;
+    text-shadow: #45CBB2 0 0 1em;
+}
+
+.registerErrorMsg {
+    color: #cf0000;
+    font-size: 1em;
+    margin: 0;
+    margin-bottom: 1em;
+}
